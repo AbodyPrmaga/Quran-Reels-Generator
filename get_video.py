@@ -8,7 +8,7 @@ import urllib3
 
 urllib3.disable_warnings()
 
-API_KEY = "52596033-b4348f2c9bdba23acdcab8117"
+API_KEY = "put_your_api_key"
 querys = ["nature", "sky", "garden", "forest", "mountains", "river", "trees", "flowers", "sunset", "landscape", "wildlife", "meadow", "ocean", "beach", "hills"]
 query = random.choice(querys)
 url = f"https://pixabay.com/api/videos/?key={API_KEY}&q={query}&per_page=10"
